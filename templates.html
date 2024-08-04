@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!--===== Web Icon Logo =====-->
+  <link rel="icon" href="./img/90.png">
+  <!--===== StyleSheet =====-->
+  <link rel="stylesheet" href="./css/boot.css">
+      <!-- Box-icon -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!--===== FontAwesome =====-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>SOUL</title>
+  <!--===== Gsap =====-->
+  <script src="libs/gsap/gsap.min.js" defer></script>
+  <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+  <!-- scrool revel  -->
+  <script src="https://unpkg.com/scrollreveal" defer></script>
+  <!--===== Custom Js =====-->
+  <script src="./js/boot.js" defer></script>
+    <title>FrontendAssets</title>
+</head>
+
+<body>
+      <!--===== Mouse Cursor =====-->
+  <div class="cursor"></div>
+    <!--===== Wrapper Section  Start =====-->
+ 
+    
+  <header id="header">
+    <div class="logo">
+        <h1>Frontend<span>Assets</span></h1>
+    </div>
+    <!-- MENU OVERLAY -->
+    <div class="overlay overlay-slide-left" id="overlay">
+        <!-- MENU ITEMS -->
+        <nav>
+            <ul>
+                <li id="nav-1" class="slide-out-1 center">
+                    <a href="index.html" class="center">Home</a>
+                </li>
+                <li id="nav-2" class="slide-out-2 center">
+                    <a href="html.html" class="center">HTML</a>
+                </li>
+                <li id="nav-3" class="slide-out-3 center dropdown">
+                    <a href="css.html" class="center">CSS  <span class="arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="profile-card.html">Profile Cards</a></li>
+                        <li><a href="button.html">Buttons</a></li>
+                        <li><a href="login-form.html">Login Forms</a></li>
+                        <li><a href="slider.html">Slider</a></li>
+                    </ul>
+                </li>
+                <li id="nav-4" class="slide-out-4 center dropdown">
+                    <a href="js.html" class="center">JavaScript<span class="arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="img-slider.html">jquery Slider</a></li>
+                        <li><a href="game.html">Js Games</a></li>
+                        <li><a href="gsap.html">Gsap projects</a></li>
+                        <!-- <li><a href="promises.html">Promises</a></li> -->
+                    </ul>
+                </li>
+                <li id="nav-5" class="slide-out-5 center">
+                    <a href="react.html" class="center">React</a>
+                </li>
+                <li id="nav-6" class="slide-out-6 center">
+                    <a href="templates.html" class="center">Templates</a>
+                </li>
+                <li id="nav-7" class="slide-out-7 center">
+                    <!-- <a href="templates.html" class="center">Templates</a> -->
+                </li>
+                <li id="nav-8" class="slide-out-8 center">
+                    <a href="blog.html" class="center">Blogs</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- HAMBURGER MENU -->
+    <div class="hamburger-menu" id="hamburger-menu">
+        <div class="menu-bar1"></div>
+        <div class="menu-bar2"></div>
+        <div class="menu-bar3"></div>
+    </div>
+
+
+</header>
+<!--===== Header Section  End =====-->
+   <!--===== Loader Section Start =====-->
+      
+      
+      <!-- Page Loader -->
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+      </div>
+      <!--===== Loader Section End =====-->
+      
+    
+<div class="body">
+      <div class="container">
+        <input type="text" id="search-bar" placeholder="Search for a block...">
+        <h1>200+ Website Templates</h1>
+        <p>Welcome to our extensive library of 200 free Bootstrap templates, expertly designed to meet the diverse needs of portfolios, e-commerce sites, blogs, landing pages, and much more. Each template is meticulously crafted with modern aesthetics and robust functionality, ensuring your website looks stunning and performs seamlessly across all devices. Whether you're a developer seeking sleek, customizable designs or a business owner aiming to establish a powerful online presence, our collection has something for everyone. Enjoy hassle-free customization, responsive layouts, and professional-grade features without any cost. Start exploring now and bring your web projects to life with our versatile and user-friendly templates. Your perfect website is just a template away!a</p>
+        <div id="blocks-container" class="blocks-container">
+          <div class="block">
+            <img src="./photo/p1.jpg" alt="Image 1">
+            <h2>Bootstrap 4 Portfolio</h2>
+            <div>
+                <a href="p2.zip" class="downloadLink" download>Download</a>
+                <div class="overlay5">
+                    <div class="popup">
+                        <span class="close">&times;</span>
+                        <p>Wait for <span class="countdown">5</span> seconds...</p>
+                    </div>
+                </div>
+                / <a href="https://themewagon.github.io/clark/" target="_blank">Live Demo</a>
+            </div>
+        </div>
+    
+
+
+        <div class="block">
+          <img src="./photo/p2.png" alt="Image 2">
+          <h2> Portfolio Website</h2>
+          <div>
+              <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+              <div class="overlay5">
+                  <div class="popup">
+                      <span class="close">&times;</span>
+                      <p>Wait for <span class="countdown">5</span> seconds...</p>
+                  </div>
+              </div>
+              / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+          </div>
+      </div>
+
+
+
+            <div class="block">
+                <img src="./photo/p3.png" alt="Image 1">
+                <h2>Portfolio Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+
+            
+            <div class="block">
+                <img src="./photo/p4.png" alt="Image 1">
+                <h2>Ecommerce Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+
+            <div class="block">
+                <img src="./photo/p5.png" alt="Image 1">
+                <h2>Tourism Business Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+            
+            <div class="block">
+                <img src="./photo/p6.png" alt="Image 1">
+                <h2> Admin Dashboard </h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+            
+            <div class="block">
+                <img src="./photo/p7.png" alt="Image 1">
+                <h2>Admin Dashboard </h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+            
+            <div class="block">
+                <img src="./photo/p8.jpg" alt="Image 1">
+                <h2> Ecommerce Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+            
+            <div class="block">
+                <img src="./photo/p9.jpg" alt="Image 1">
+                <h2> Ecommerce Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+            
+            <div class="block">
+                <img src="./photo/p10.png" alt="Image 1">
+                <h2>Admin Dashboard</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+            
+            <div class="block">
+                <img src="./photo/p11.png" alt="Image 1">
+                <h2> Business Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+            
+            <div class="block">
+                <img src="./photo/p12.webp" alt="Image 1">
+                <h2>Admin Dashboard</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+            
+            <div class="block">
+                <img src="./photo/p13.png" alt="Image 1">
+                <h2>Bootstrap Landing Page</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+            
+            <div class="block">
+                <img src="./photo/p14.png" alt="Image 1">
+                <h2>Portfolio Website </h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+            
+            <div class="block">
+                <img src="./photo/p15.jpg" alt="Image 1">
+                <h2>CV Template</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+
+
+
+            <div class="block">
+                <img src="./photo/p16.png" alt="Image 1">
+                <h2>Online Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+            <div class="block">
+                <img src="./photo/p17.jpg" alt="Image 1">
+                <h2>Fruits Ecommerce Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p18.png" alt="Image 1">
+                <h2>Ecommerce Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p19.png" alt="Image 1">
+                <h2>Real Estate Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p20.png" alt="Image 1">
+                <h2>Admin Dashboard</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p21.png" alt="Image 1">
+                <h2>Educational Landing Page</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p22.webp" alt="Image 1">
+                <h2>Educenter Bootstrap</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+
+            
+            <div class="block">
+                <img src="./photo/p23.webp" alt="Image 1">
+                <h2>Eventre Bootstrap</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p24.webp" alt="Image 1">
+                <h2>Airspace Bootstrap</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p25.webp" alt="Image 1">
+                <h2>Portfolio Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p26.webp" alt="Image 1">
+                <h2>Startup Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p27.webp" alt="Image 1">
+                <h2>IT Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p28.webp" alt="Image 1">
+                <h2>Arsha Bootstrap Portfolio</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p29.webp" alt="Image 1">
+                <h2>Agency Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p30.webp" alt="Image 1">
+                <h2>Clean Bootstrap</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p31.png" alt="Image 1">
+                <h2>Educational Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p32.jpg" alt="Image 1">
+                <h2>Ecommerce Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+                
+            <div class="block">
+                <img src="./photo/p33.jpg" alt="Image 1">
+                <h2>Job Portal Website</h2>
+                <!-- <h4>Description 1</h4> -->
+                <div>
+                  <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                  <div class="overlay5">
+                      <div class="popup">
+                          <span class="close">&times;</span>
+                          <p>Wait for <span class="countdown">5</span> seconds...</p>
+                      </div>
+                  </div>
+                  / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+              </div>
+                
+            </div>
+
+
+
+
+            <div class="block">
+              <img src="./photo/p34.png" alt="Image 1">
+              <h2>Business Website</h2>
+              <!-- <h4>Description 1</h4> -->
+              <div>
+                <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+                <div class="overlay5">
+                    <div class="popup">
+                        <span class="close">&times;</span>
+                        <p>Wait for <span class="countdown">5</span> seconds...</p>
+                    </div>
+                </div>
+                / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+            </div>
+              
+          </div>
+
+
+          <div class="block">
+            <img src="./photo/p35.jpg" alt="Image 1">
+            <h2>Ecommerce Website</h2>
+            <!-- <h4>Description 1</h4> -->
+            <div>
+              <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+              <div class="overlay5">
+                  <div class="popup">
+                      <span class="close">&times;</span>
+                      <p>Wait for <span class="countdown">5</span> seconds...</p>
+                  </div>
+              </div>
+              / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+          </div>
+            
+        </div>
+
+
+
+        <div class="block">
+          <img src="./photo/p36.png" alt="Image 1">
+          <h2>Ecommerce Website</h2>
+          <!-- <h4>Description 1</h4> -->
+          <div>
+            <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+            <div class="overlay5">
+                <div class="popup">
+                    <span class="close">&times;</span>
+                    <p>Wait for <span class="countdown">5</span> seconds...</p>
+                </div>
+            </div>
+            / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+        </div>
+          
+      </div>
+
+      <div class="block">
+        <img src="./photo/p37.png" alt="Image 1">
+        <h2>Landing Page</h2>
+        <!-- <h4>Description 1</h4> -->
+        <div>
+          <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+          <div class="overlay5">
+              <div class="popup">
+                  <span class="close">&times;</span>
+                  <p>Wait for <span class="countdown">5</span> seconds...</p>
+              </div>
+          </div>
+          / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+      </div>
+        
+    </div>
+
+
+
+    <div class="block">
+      <img src="./photo/p38.png" alt="Image 1">
+      <h2>Restaurant Website</h2>
+      <!-- <h4>Description 1</h4> -->
+      <div>
+        <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+        <div class="overlay5">
+            <div class="popup">
+                <span class="close">&times;</span>
+                <p>Wait for <span class="countdown">5</span> seconds...</p>
+            </div>
+        </div>
+        / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+    </div>
+      
+  </div>
+
+
+
+  <div class="block">
+    <img src="./photo/p39.png" alt="Image 1">
+    <h2>Healthcare Website</h2>
+    <!-- <h4>Description 1</h4> -->
+    <div>
+      <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+      <div class="overlay5">
+          <div class="popup">
+              <span class="close">&times;</span>
+              <p>Wait for <span class="countdown">5</span> seconds...</p>
+          </div>
+      </div>
+      / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+  </div>
+    
+</div>
+
+
+
+<div class="block">
+  <img src="./photo/p40.png" alt="Image 1">
+  <h2>Portfolio Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+<div class="block">
+  <img src="./photo/p41.jpg" alt="Image 1">
+  <h2>News Portal Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+<div class="block">
+  <img src="./photo/p42.png" alt="Image 1">
+  <h2>Car Renting Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+          
+           
+          
+<div class="block">
+  <img src="./photo/p43.jpg" alt="Image 1">
+  <h2>News Portal Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+<div class="block">
+  <img src="./photo/p44.jpg" alt="Image 1">
+  <h2>News Portal Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+<div class="block">
+  <img src="./photo/p45.jpg" alt="Image 1">
+  <h2>News Portal Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+<div class="block">
+  <img src="./photo/p46.PNG" alt="Image 1">
+  <h2>Catalog Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+
+
+
+<div class="block">
+  <img src="./photo/p47.PNG" alt="Image 1">
+  <h2>Shop Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+<div class="block">
+  <img src="./photo/p48.PNG" alt="Image 1">
+  <h2>Plotlist Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+
+<div class="block">
+  <img src="./photo/p49.PNG" alt="Image 1">
+  <h2>Listrace
+    Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+<div class="block">
+  <img src="./photo/p50.PNG" alt="Image 1">
+  <h2>Troweld Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+<div class="block">
+  <img src="./photo/p51.PNG" alt="Image 1">
+  <h2>Jobe Entry Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+<div class="block">
+  <img src="./photo/p52.PNG" alt="Image 1">
+  <h2>Honey Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+<div class="block">
+  <img src="./photo/p53.PNG" alt="Image 1">
+  <h2>GrandCoffee Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+<div class="block">
+  <img src="./photo/p54.PNG" alt="Image 1">
+  <h2>Ecommerce Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+<div class="block">
+  <img src="./photo/p55.PNG" alt="Image 1">
+  <h2>Portfolio Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+<div class="block">
+  <img src="./photo/p56.PNG" alt="Image 1">
+  <h2>Crypto Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+<div class="block">
+  <img src="./photo/p57.PNG" alt="Image 1">
+  <h2>Car Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+
+
+<div class="block">
+  <img src="./photo/p58.PNG" alt="Image 1">
+  <h2>Seo Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+<div class="block">
+  <img src="./photo/p59.PNG" alt="Image 1">
+  <h2>Digitalex Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+  
+</div>
+
+
+
+
+<div class="block">
+  <img src="./photo/p60.PNG" alt="Image 1">
+  <h2>Brainwave Website</h2>
+  <!-- <h4>Description 1</h4> -->
+  <div>
+    <a href="/another-zip-file.zip" class="downloadLink" download>Download</a>
+    <div class="overlay5">
+        <div class="popup">
+            <span class="close">&times;</span>
+            <p>Wait for <span class="countdown">5</span> seconds...</p>
+        </div>
+    </div>
+    / <a href="https://anotherdemo.github.io/" target="_blank">Live Demo</a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <button id="prev-button" class="navigation-button">Previous</button>
+        <button id="next-button" class="navigation-button">Next</button>
+    </div>
+    </div>
+
+
+
+        
+    
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="sec aboutus">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quisquam minus quo illo numquam vel incidunt pariatur hic commodi expedita tempora praesentium at iure fugiat ea, quam laborum aperiam veritatis.</p>
+            <ul class="sci">
+                <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="sec quicklinks">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JavaScript</a></li>
+                <li><a href="react.html">React</a></li>
+                <li><a href="templates.html">Templates</a></li>
+                
+            </ul>
+        </div>
+        <div class="sec contactBxx">
+            <h2>Contact Info</h2>
+            <ul class="info">
+                <li>
+                    <!-- <span><i class='bx bxs-map'></i></span>
+                    <span>6444 London street <br> Brighton PA 33445 <br> Uk</span> -->
+                </li>
+                <li>
+                    <span><i class='bx bx-envelope' ></i></span>
+                    <p><a href="mailto:codemyhobby9@gmail.com">Codemyhobby9@gmail.com</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+
+<script>
+
+
+  
+
+ 
+</script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
